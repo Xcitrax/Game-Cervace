@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1c1b33;
+}
+.filter-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: #1d1e38;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.filter-btn {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.filter-btn .arrow {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.menu-btn {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+}
+
+.hotNow img {
+  width: 100%;
+}
+.hotNow h1 {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+}
+.hotNow {
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+.trending {
+  color: white;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.game-card {
+  background: #1b1c34;
+  padding: 15px;
+  position: relative;
+  background-color: #272842;
+}
+
+.game-card img {
+  width: 100%;
+}
+
+.game-card h3 {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.game-card .genre {
+  font-size: 14px;
+  color: #a0a0b6;
+  margin-top: 2px;
+}
+
+.game-card .price {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.game-card .platform {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 22px;
+  opacity: 0.4;
+}
