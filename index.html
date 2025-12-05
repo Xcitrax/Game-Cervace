@@ -7,56 +7,115 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="filter-bar">
-      <button class="filter-btn">Action <span class="arrow">▾</span></button>
-      <button class="filter-btn">French <span class="arrow">▾</span></button>
-      <button class="filter-btn">System <span class="arrow">▾</span></button>
-      <button class="filter-btn">Price <span class="arrow">▾</span></button>
-
-      <button class="menu-btn">☰</button>
+    <div class="sidebar">
+      <div class="item active">
+        <i><img src="./steam.png" alt="" /></i>
+      </div>
+      <div class="item">
+        <i><img src="./housee.png" alt="" /></i>
+      </div>
+      <div class="item">
+        <i><img src="./store.png" alt="" /></i>
+      </div>
+      <div class="item">
+        <i><img src="./game.png" alt="" /></i>
+      </div>
+      <div class="item">
+        <i><img src="./frame.png" alt="" /></i>
+      </div>
+      <div class="item">
+        <i><img src="./airdrop.png" alt="" /></i>
+      </div>
+      <div class="item">
+        <i><img src="./boy-with-glasses.png" alt="" /></i>
+      </div>
+      <div class="item">
+        <i><img src="./cloud.png" alt="" /></i>
+      </div>
     </div>
-
-    <section class="hotNow">
-      <h1>Hot & Now</h1>
-      <img src="./fortnite.png" alt="fortnite" />
-    </section>
-    <section class="trending">
-      <h2>Trending</h2>
-
-      <div class="games-grid">
-        <div class="game-card">
-          <img src="./witcher.png" alt="The Witcher 3" />
-          <h3>The Witcher 3: Wild Hunt</h3>
-          <p class="genre">Role Playing Action</p>
-          <p class="price">$54.3</p>
-          <span class="platform">🎮</span>
+    <main>
+      <header>
+        <button class="filter-btn">
+          Your Story <span class="arrow">▾</span>
+        </button>
+        <button class="filter-btn">Games <span class="arrow">▾</span></button>
+        <button class="filter-btn">
+          Programs <span class="arrow">▾</span>
+        </button>
+        <button class="filter-btn">Devices <span class="arrow">▾</span></button>
+        <button class="filter-btn">News <span class="arrow">▾</span></button>
+        <button class="filter-btn">
+          Laboratories <span class="arrow">▾</span>
+        </button>
+        <input type="text" class="search" placeholder="🔍︎  Search the store" />
+        <img src="./Profile-picture.png" alt="profile" />
+        <div class="names">
+          <span>Sarah</span> <span class="lvl">Level 70</span>
         </div>
+        <button class="filter-btn">
+          <img src="./icons8_notification_2 1.png" alt="notification" />
+        </button>
+        <button class="menu-btn">☰</button>
+      </header>
 
-        <div class="game-card">
-          <img src="./cod.png" alt="Call of Duty" />
-          <h3>Call of Duty Modern Warfare II</h3>
-          <p class="genre">Fighting Action</p>
-          <p class="price">$50</p>
-          <span class="platform">🎮</span>
+      <div class="container">
+        <div class="options">
+          <button class="filter-btn">
+            Action <span class="arrow">▾</span>
+          </button>
+          <button class="filter-btn">
+            French <span class="arrow">▾</span>
+          </button>
+          <button class="filter-btn">
+            System <span class="arrow">▾</span>
+          </button>
+          <button class="filter-btn">Price <span class="arrow">▾</span></button>
+
+          <button class="menu-btn">☰</button>
         </div>
+        <section class="hotNow">
+          <h1>Hot & Now</h1>
+          <img src="./fortnite.png" alt="fortnite" />
+        </section>
+        <section class="trending">
+          <h2>Trending</h2>
+
+          <div class="games-grid">
+            <div class="game-card">
+              <img src="./witcher.png" alt="The Witcher 3" />
+              <h3>The Witcher 3: Wild Hunt</h3>
+              <p class="genre">Role Playing Action</p>
+              <p class="price">$54.3</p>
+              <span class="platform">🎮</span>
+            </div>
+
+            <div class="game-card">
+              <img src="./cod.png" alt="Call of Duty" />
+              <h3>Call of Duty Modern Warfare II</h3>
+              <p class="genre">Fighting Action</p>
+              <p class="price">$50</p>
+              <span class="platform">🎮</span>
+            </div>
+          </div>
+          <div class="games-grid">
+            <div class="game-card">
+              <img src="./Pes.png" alt="The Witcher 3" />
+              <h3>Pes 2023</h3>
+              <p class="genre">Sport</p>
+              <p class="price">$54.3</p>
+              <span class="platform">🎮</span>
+            </div>
+
+            <div class="game-card">
+              <img src="./NBA.png" alt="Call of Duty" />
+              <h3>NBA 2K23</h3>
+              <p class="genre">Sport</p>
+              <p class="price">$25</p>
+              <span class="platform">🎮</span>
+            </div>
+          </div>
+        </section>
       </div>
-      <div class="games-grid">
-        <div class="game-card">
-          <img src="./Pes.png" alt="The Witcher 3" />
-          <h3>Pes 2023</h3>
-          <p class="genre">Sport</p>
-          <p class="price">$54.3</p>
-          <span class="platform">🎮</span>
-        </div>
-
-        <div class="game-card">
-          <img src="./NBA.png" alt="Call of Duty" />
-          <h3>NBA 2K23</h3>
-          <p class="genre">Sport</p>
-          <p class="price">$25</p>
-          <span class="platform">🎮</span>
-        </div>
-      </div>
-    </section>
+    </main>
   </body>
 </html>
